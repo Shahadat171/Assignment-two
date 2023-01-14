@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ----------
+  needed variable
+  -------------- */
+:root {
+    --seranade: #FFF4E7;
+    --dark-orange: #FF900E;
+}
+
+/*-------
+  header styles start
+  ----------- */
+.header {
+    background-color: var(--seranade);
+}
+
+/* nav start */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 228px;
+    margin-right: 240px;
+    padding-top: 55px;
+    align-items: center;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.nav>ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/* nav end */
+/* architect start */
+.architect {
+    text-align: center;
+    margin-top: 105px;
+}
+
+.architect-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 35px;
+}
+
+.architect-description {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.architect-btn {
+    width: 180px;
+    height: 64px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    background-color: var(--dark-orange);
+    border: none;
+    border-radius: 5px;
+    margin-top: 33px;
+    margin-bottom: 50px;
+}
+
+/* architect end */
+/* banner start */
+.banner {
+    margin-left: 209px;
+    margin-right: 271px;
+    padding-left: 31px;
+    margin-bottom: 85px;
+}
+
+.banner-image {
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+/* banner end */
+/* -------
+   header end
+   ------- */
+/* image-section start */
+.image-section {
+    margin-left: 300px;
+    display: flex;
+    gap: 73px;
+    margin-right: 300px;
+    margin-top: 85px;
+}
+.section-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    width: 77.5vh;
+}
+.section-image > img{
+ width: 100%;
+}
+.general {
+    font-weight: 700;
+    font-size: 45px;
+    /* line-height: 53px; */
+}
+
+.image-section-title {
+    color: #727272;
+}
+
+.our {
+    color: #131313;
+}
+.features{
+    /* margin-left: 73px; */
+    align-items: center;
+    align-content: center;
+    margin: auto 0px;
+}
+.feature{
+    color: var(--dark-orange);
+}
+
+.image-section-description {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 26px; */
+    color:#727272;
+}
