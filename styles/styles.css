@@ -350,7 +350,7 @@ main section end
 }
 @media screen and (max-width:576px) {
     .header{
-        max-width:100%;
+        width:100%;
     }
     .nav{
         flex-direction: column;
@@ -379,6 +379,7 @@ main section end
         margin-left: auto;
         margin-right: auto;
         width: 80%;
+        margin-left: 3%;
     }
     
     .banner-image {
@@ -399,7 +400,7 @@ main section end
     }
     .section-image{
         width: 100%;
-        padding-left: 8%;
+        padding-left: 4%;
     }
     .section-image>img{
         width: 61vh;
@@ -473,8 +474,11 @@ main section end
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-left:  5%;
-        gap: 7%;
+        gap: 5%;
         margin-bottom: 100px;
+    }
+    .fact{
+        width: 30vh;
     }
     .sponsor-brand {
         margin-left: 20%;
