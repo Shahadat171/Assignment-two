@@ -160,6 +160,7 @@
 .service-description {
     font-weight: 400;
     font-size: 16px;
+    margin-left: 10px;
 }
 
 .service {
@@ -358,6 +359,9 @@ main section end
         margin-left: auto;
         margin-right: auto;
     }
+    .nav>ul{
+        gap: 20px;
+    }
     .nav-title{
         font-size: 25px;
         line-height: 10px;
@@ -395,16 +399,15 @@ main section end
     .section-images{
         display: grid;
         grid-template-columns: 1fr;
-        gap: 24px;
-        width: 80%px;
+        width: 100%;
     }
     .section-image{
         width: 100%;
-        padding-left: 4%;
+        padding-left: 10%;
     }
     .section-image>img{
-        width: 61vh;
-        height: 55vh;
+        width: 80% ;
+        height:70% ;
     }
     .service-title {
         font-weight: 700;
@@ -431,7 +434,7 @@ main section end
     .service {
         margin-bottom: 20px;
         width: 95%;
-        height: 171px;
+        height: 70%;
         box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
         border-radius: 8px;
         padding: 30px 0px 30px 42px;
@@ -472,10 +475,11 @@ main section end
     }
     .facts{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-left:  5%;
+        grid-template-columns:1fr;
+        margin-left: 20%;
+        margin-right: auto;
         gap: 5%;
-        margin-bottom: 100px;
+        margin-bottom: ;
     }
     .fact{
         width: 30vh;
@@ -490,6 +494,25 @@ main section end
     }
     .contact{
         margin-left: 4%;
+        width: 90%;
+    }
+    .contact-title {
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .info {
+        height: 50px;
+        width: 70%;
+        margin-bottom: 30px;
+        padding: 14px 20px;
+        font-size: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+    .div{
+        width: 100%;
     }
     .footer {
         text-align: center;
@@ -498,6 +521,9 @@ main section end
         margin: 40px auto 50px auto;
         width: 80%;
         
+    }
+    .main{
+       max-width: 100%;
     }
     
 }
